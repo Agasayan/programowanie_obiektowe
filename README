@@ -1,0 +1,15 @@
+# programowanie_obiektowe
+kody z labolatoriow programowania obiektowego
+
+instrukcja obslugi:
+potrzebna jest biblioteka GSON, instalacja ->https://dev.to/cosmicity/how-to-import-gson-library-into-eclipse-20og
+
+parametry swiata wprowadzamy w pliku parameters.json
+
+podstawowe operacje to:
+1. start symulacji
+2. stop symulacji
+3. kliknięcie w mapę podczas pauzy i wyswietlenie pokemona
+4. obserwacja danego pokemona
+5. zapis do pliku txt
+

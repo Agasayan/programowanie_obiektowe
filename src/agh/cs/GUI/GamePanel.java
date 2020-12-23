@@ -31,7 +31,7 @@ public class GamePanel extends JPanel {
         this.setWidth(getWidthScale() * this.getSimulation().getWidth());
         this.setHeight(getHeightScale() * this.getSimulation().getHeight());
         setSize(new Dimension(this.getWidth(), this.getHeight()));
-        gameMainFrame.getFrame().setPreferredSize(new Dimension(500 + getWidth(), getHeight() + Configuration.getInstance().getToolbarSize())); //tutaj prosze wpisac wysokosc paska narzedzi, inaczej sie zepsuje :))
+        gameMainFrame.getFrame().setPreferredSize(new Dimension(500 + getWidth(), getHeight() + Configuration.getInstance().getToolbarSize()));
     }
 
 
