@@ -12,8 +12,8 @@ public class Configuration {
     private int mapWidth;
     private int mapHeight;
 
-    private int toolbarSize = 36;
-    private int toolbarScale = 36;
+    private int toolbarSize = 28;
+    private int toolbarScale = 28;
 
     private int startingAnimals;
     private int animalEnergy;

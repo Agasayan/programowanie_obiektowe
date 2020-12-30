@@ -162,6 +162,14 @@ public class GrassField extends AbstractWorldMap {
         }
         this.setCurrDayAnimalsBorn(animalsBorn.size());
         this.setCurrDayGrassEaten(grassesEaten.size());
+        for (Animal animal : animalsBorn) {
+            Vector2d key = animal.getPosition();
+            if (getAnimalsMap().get(key) == null) {
+                getAnimalsMap().put(key, new ArrayList<Animal>(Arrays.asList(animal)));
+            } else {
+                getAnimalsMap().get(key).add(animal);
+            }
+        }
     }
 
     public Grass eatGrass(List<Animal> animalsToFeed) {
