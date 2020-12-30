@@ -6,6 +6,8 @@ potrzebna jest biblioteka GSON, instalacja ->https://dev.to/cosmicity/how-to-imp
 
 parametry swiata wprowadzamy w pliku parameters.json
 
+liczbę pojawianych się kępek trawy ustawiamy w polu prywatnym w klasie GrassField - pole grassSpawned
+
 podstawowe operacje to:
 1. start symulacji
 2. stop symulacji
